@@ -1,6 +1,12 @@
 body{
     background-color:grey;
 }
+.job
+{
+    background-color: green;
+    display:flex;
+    
+}
 
 
 .container
