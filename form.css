@@ -1,10 +1,20 @@
+*
+{
+    font-family: sans-serif;
+}
+
 body{
     background-color:grey;
 }
 .job
 {
-    background-color: greenyellow;
-    display:flex;
+    border-radius: 14px;
+    background-color: rgb(202, 191, 191);
+    display:grid;
+    place-items: center
+    ;
+    margin-bottom: 20px;
+
     
 }
 
@@ -44,11 +54,12 @@ button
     border-radius: 12px;
 }
 input ,select{
-   margin-bottom: 15px;
+    margin-top: 05px;
+   margin-bottom: 25px;
    border: 2px solid grey;
    border-radius: 5px;
-   /* width: 15vw; */
-    /* height: 4vh;     */
+   width: 15vw;
+    height: 4vh;    
 }
 /* textarea */
 /* {
@@ -65,11 +76,11 @@ button:hover
 {
     background-color: white;
     color:red;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;       
 }
 input:focus
 {
-    outline-color: red;
+    outline-color: rgb(180, 223, 197);
     /* outline-style: dotted ; */
 }
 span{
@@ -82,9 +93,12 @@ span{
     grid-column-end: 3;
     /* width: 10vw; */
 }
-.text_area textarea
+.text textarea
 {
     border: 2px solid grey;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
