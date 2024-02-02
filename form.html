@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="Form.css"/>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="job">
+      <h1>Job Application <span>(web)</span></h1>
+
+    </div>
+    <form action=" ">
+      <div class="main_form">
+        <div class="f_control">
+          <label for="name">Enter First name </label><br />
+          <input type="text" name="name" id="name" placeholder="Enter your name "><br />
+        </div>
+        <div class="f_control">
+          <label for="lname">Enter Last name </label><br />
+          <input type="text" name="lname" id="lname" placeholder="Enter your last name " /><br />
+        </div>
+        <div class="f_control">
+          <label for="Email">Enter Email </label><br />
+          <input type="email" name="Email" id="Email" placeholder="Enter your last mail " /><br />
+        </div>
+        <div class="f_control">
+          <label for="job role">Job Role</label><br />
+          <select name="job role" id="job role">
+            <option value="">Choose Role</option>
+            <option value="backend dev">backend developer</option>
+            <option value="Front-end dev">Front end developer</option>
+            <option value="Full stack dev">Full stack developer</option>
+          </select>
+        </div>
+        <div class="text">
+          <label for="Addres">Enter Your address</label><br>
+          <textarea name="Addres" id="address" cols="20" rows="05"></textarea><br>
+        </div>
+        <div class="f_control">
+          <label for="City">City</label><br>
+          <input type="text" name="city" id="city" placeholder="Enter city name">
+        </div>
+        <div class="f_control">
+          <label for="Pincode">Pincode</label><br>
+          <input type="text" name="Pincode" id="Pincode" placeholder="Enter city name">
+        </div>
+
+        <div class="f_control">
+          <label for="Pincode">Date</label><br>
+          <input type="date" id="Pincode" name="pin">
+        </div>
+        <div class="f_control">
+          <label for="file">Upload</label><br>
+          <input type="File" id="file" name="file">
+        </div>
+      </div>
+    </form>
+    <div class="butt">
+
+      <button type="submit">Apply now</button>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
